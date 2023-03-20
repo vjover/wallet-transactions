@@ -21,15 +21,31 @@ npm build
 
 ## Modules Stack
 
-rainbowkit
-bulma
-ethers
-firebase
-use-debounce
-wagmi
-## Contributing
+```bash
+npm install
+# 
+npm start
+# 
+npm build
 
-Please follow our [contributing guidelines](./.github/CONTRIBUTING.md).
+rainbowkit
+# 
+bulma
+# 
+ethers
+# 
+firebase
+# 
+use-debounce
+# 
+wagmi
+# 
+testing-library
+# 
+button-vjover
+```
+
+
 
 ## License
 

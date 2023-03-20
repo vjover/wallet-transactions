@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
     "bulma": "^0.9.4",
+    "button-vjover": "^0.1.1",
     "ethers": "^5.7.2",
     "firebase": "^8.1.2",
     "react": "^17.0.1",

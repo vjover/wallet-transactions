@@ -4,6 +4,7 @@ import fire from '../../config/Fire';
 import SendTransaction from './Transaction/SendTransaction';
 import Balance from './Balance';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { Button } from 'button-vjover';
 
 
 
@@ -16,8 +17,9 @@ class Tracker extends Component {
 
     // logout function
     logout = () => {
-        fire.auth().signOut();
         window.location.reload(false);
+        fire.auth().signOut();
+        
     }
 
     handleChange = input => e => {
@@ -40,8 +42,8 @@ class Tracker extends Component {
                          <p className="title">
                          Hola {currentUser.displayName},
                         </p>
+                        <Button  label="Log out" kind="primary"   handleClick={this.logout}/>
                  
-                    <button className="exit button is-link" onClick={this.logout}>Log out</button>
                     </div>
                 </section>
                <section className="trackerBlock container">
